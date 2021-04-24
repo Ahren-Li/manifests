@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="remotes.xml" />
+
+  <project remote="github" name="llvm-project" path="external/llvm-project" upstream="llvmorg-7.0.1-ahren"/>
+  <project remote="github" name="lldb-utils" path="external/lldb-utils" upstream="windows-7.0.1"/>
+
+  <project remote="github" name="prebuilts-cmake-windows-x86" path="prebuilts/cmake/windows-x86" upstream="cmake-3.18"/>
+  <project remote="github" name="prebuilts-swig-windows-x86.git" path="prebuilts/swig/windows-x86" upstream="lldb-master-dev"/>
+  <project remote="github" name="prebuilts-ninja-windows-x86" path="prebuilts/ninja/windows-x86" upstream="lldb-master-dev"/>
+  <project remote="github" name="prebuilts-python-windows-x86" path="prebuilts/python/windows-x86" upstream="lldb-master-dev"/>
+  
+  <project remote="github" name="prebuilts-clang-host-windows-x86" path="prebuilts/clang/host/windows-x86" upstream="7.0.1"/>
+</manifest>

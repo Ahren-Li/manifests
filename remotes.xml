@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/Ahren-Li/" name="github" />
+  <remote fetch="https://android.googlesource.com/" name="google" />
+  <remote fetch="ssh://git@www.lili.kim/home/git/" name="lili" />
+
+  <default remote="github" revision="master" sync-c="true" sync-j="2"/>
+  
+</manifest>
