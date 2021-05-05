@@ -10,5 +10,5 @@
   <project remote="github" name="prebuilts-ninja-windows-x86" path="prebuilts/ninja/windows-x86" upstream="lldb-master-dev"/>
   <project remote="github" name="prebuilts-python-windows-x86" path="prebuilts/python/windows-x86" upstream="lldb-master-dev"/>
   
-  <project remote="github" name="prebuilts-clang-host-windows-x86" path="prebuilts/clang/host/windows-x86" upstream="7.0.1"/>
+  <project remote="github" name="prebuilts-clang-host-windows-x86" path="prebuilts/clang/host/windows-x86" upstream="lldb-7.0.1"/>
 </manifest>
