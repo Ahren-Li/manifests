@@ -2,13 +2,13 @@
 <manifest>
   <include name="remotes.xml" />
 
-  <project remote="github" name="llvm-project" path="external/llvm-project" upstream="llvmorg-7.0.1-ahren"/>
-  <project remote="github" name="lldb-utils" path="external/lldb-utils" upstream="windows-7.0.1"/>
+  <project remote="github" name="llvm-project" path="external/llvm-project" revision="llvmorg-7.0.1-ahren" upstream="llvmorg-7.0.1-ahren"/>
+  <project remote="github" name="lldb-utils" path="external/lldb-utils" revision="windows-7.0.1" upstream="windows-7.0.1"/>
 
-  <project remote="github" name="prebuilts-cmake-windows-x86" path="prebuilts/cmake/windows-x86" upstream="cmake-3.18"/>
-  <project remote="github" name="prebuilts-swig-windows-x86.git" path="prebuilts/swig/windows-x86" upstream="lldb-master-dev"/>
-  <project remote="github" name="prebuilts-ninja-windows-x86" path="prebuilts/ninja/windows-x86" upstream="lldb-master-dev"/>
-  <project remote="github" name="prebuilts-python-windows-x86" path="prebuilts/python/windows-x86" upstream="lldb-master-dev"/>
+  <project remote="github" name="prebuilts-cmake-windows-x86" path="prebuilts/cmake/windows-x86" revision="cmake-3.18" upstream="cmake-3.18"/>
+  <project remote="github" name="prebuilts-swig-windows-x86.git" path="prebuilts/swig/windows-x86" revision="lldb-master-dev" upstream="lldb-master-dev"/>
+  <project remote="github" name="prebuilts-ninja-windows-x86" path="prebuilts/ninja/windows-x86" revision="lldb-master-dev" upstream="lldb-master-dev"/>
+  <project remote="github" name="prebuilts-python-windows-x86" path="prebuilts/python/windows-x86" revision="lldb-master-dev" upstream="lldb-master-dev"/>
   
-  <project remote="github" name="prebuilts-clang-host-windows-x86" path="prebuilts/clang/host/windows-x86" upstream="lldb-7.0.1"/>
+  <project remote="github" name="prebuilts-clang-host-windows-x86" path="prebuilts/clang/host/windows-x86" revision="7.0.1" upstream="7.0.1"/>
 </manifest>
