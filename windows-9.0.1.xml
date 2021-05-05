@@ -3,7 +3,9 @@
   <include name="remotes.xml" />
 
   <project remote="github" name="llvm-project" path="external/llvm-project" revision="refs/tags/llvmorg-9.0.1" upstream="refs/tags/llvmorg-9.0.1"/>
-  <project remote="github" name="lldb-utils" path="external/lldb-utils" revision="windows-9.0.1" upstream="windows-9.0.1"/>
+  <project remote="github" name="lldb-utils" path="external/lldb-utils" revision="windows-9.0.1" upstream="windows-9.0.1">
+      <linkfile dest="lldb.sh" src="lldb.sh"/>
+  </project>
 
   <project remote="github" name="prebuilts-cmake-windows-x86" path="prebuilts/cmake/windows-x86" revision="cmake-3.18" upstream="cmake-3.18"/>
   <project remote="github" name="prebuilts-swig-windows-x86.git" path="prebuilts/swig/windows-x86" revision="lldb-master-dev" upstream="lldb-master-dev"/>
